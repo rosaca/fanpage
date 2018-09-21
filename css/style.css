@@ -4,7 +4,8 @@ html {
 
 body {
     height: 100%;
-    
+    color: #74285d;
+    background-color:;
 }
 a {
     text-decoration: none;
@@ -16,4 +17,8 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.navbar {
+    text-shadow: white;
 }
