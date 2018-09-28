@@ -4,8 +4,8 @@ html {
 
 body {
     height: 100%;
-    color: #74285d;
-    background-color:;
+    color: 	#ff6600;
+    background-color: #4d0066;
 }
 a {
     text-decoration: none;
@@ -21,4 +21,49 @@ a {
 
 .navbar {
     text-shadow: white;
+    display: flex;
+    justify-content: space-around;
 }
+
+.Header{
+    display:flex;
+    justify-content:center;
+    width:60;
+
+}
+
+.footer{
+    
+   display: flex; 
+   justify-content: center;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.thumbnail-image{
+ border: solid black 5px;
+}
+
+h1{
+    display: flex; 
+   justify-content: center;
+}
+
+.aboutMain {
+    display: flex; 
+   justify-content: flex-end;
+
+    
+}
+
+#AboutImg {
+    
+    width: 30%;
+}
+
+
+
