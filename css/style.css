@@ -5,6 +5,7 @@ html {
 body {
     height: 100%;
     color: 	#ff6600;
+    
     background-color: #4d0066;
 }
 a {
@@ -20,16 +21,17 @@ a {
 }
 
 .navbar {
-    text-shadow: white;
+    text-decoration: underline;
     display: flex;
     justify-content: space-around;
+    color: #FFD700;
 }
 
-.Header{
+.header{
     display:flex;
     justify-content:center;
     width:60;
-
+    font-size: 50px;
 }
 
 .footer{
@@ -40,8 +42,29 @@ a {
 
 .gallery{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
    
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.videos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.video {
+   display: flex;
+   justify-content: space-between;
 }
 
 .thumbnail-image{
@@ -60,9 +83,19 @@ h1{
     
 }
 
-#AboutImg {
+.rightPane {
     
-    width: 30%;
+    width: 100%;
+}
+
+.leftPane {
+    width:50%;
+}
+
+.aboutMain {
+    display:flex;
+    flex-direction: row; 
+    
 }
 
 
